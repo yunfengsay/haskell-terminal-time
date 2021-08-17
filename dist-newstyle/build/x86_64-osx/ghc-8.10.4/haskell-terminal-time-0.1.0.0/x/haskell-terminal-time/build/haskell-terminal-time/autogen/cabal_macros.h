@@ -20,16 +20,6 @@
   (major1) == 4 && (major2) <  14 || \
   (major1) == 4 && (major2) == 14 && (minor) <= 1)
 #endif /* MIN_VERSION_base */
-/* package haskell-terminal-time-0.1.0.0 */
-#ifndef VERSION_haskell_terminal_time
-#define VERSION_haskell_terminal_time "0.1.0.0"
-#endif /* VERSION_haskell_terminal_time */
-#ifndef MIN_VERSION_haskell_terminal_time
-#define MIN_VERSION_haskell_terminal_time(major1,major2,minor) (\
-  (major1) <  0 || \
-  (major1) == 0 && (major2) <  1 || \
-  (major1) == 0 && (major2) == 1 && (minor) <= 0)
-#endif /* MIN_VERSION_haskell_terminal_time */
 
 /* tool gcc-12.0.5 */
 #ifndef TOOL_VERSION_gcc
